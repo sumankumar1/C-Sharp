@@ -81,6 +81,8 @@ namespace MergeTwoArrayDistinct
             watch.Stop();
             timeSpan = watch.Elapsed;
             Console.WriteLine($"Total elements in List: {data1.Length + data2.Length} \nTime taken using List: {timeSpan.TotalMilliseconds} ms\n");
+
+            Console.ReadKey();
         }
     }
 }
