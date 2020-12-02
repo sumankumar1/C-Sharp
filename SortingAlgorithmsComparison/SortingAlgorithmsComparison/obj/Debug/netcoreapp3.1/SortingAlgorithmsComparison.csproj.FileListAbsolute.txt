@@ -1,0 +1,12 @@
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\bin\Debug\netcoreapp3.1\SortingAlgorithmsComparison.exe
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\bin\Debug\netcoreapp3.1\SortingAlgorithmsComparison.deps.json
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\bin\Debug\netcoreapp3.1\SortingAlgorithmsComparison.runtimeconfig.json
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\bin\Debug\netcoreapp3.1\SortingAlgorithmsComparison.runtimeconfig.dev.json
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\bin\Debug\netcoreapp3.1\SortingAlgorithmsComparison.dll
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\bin\Debug\netcoreapp3.1\SortingAlgorithmsComparison.pdb
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.AssemblyInfoInputs.cache
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.AssemblyInfo.cs
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.csproj.CoreCompileInputs.cache
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.dll
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.pdb
+C:\Users\suman\source\repos\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.genruntimeconfig.cache
