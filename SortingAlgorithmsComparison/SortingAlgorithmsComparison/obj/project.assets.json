@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj",
+      "projectUniqueName": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj",
       "projectName": "SortingAlgorithmsComparison",
-      "projectPath": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj",
+      "projectPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj",
       "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\obj\\",
+      "outputPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Reflection;
+using System.Linq;
 
 namespace SortingAlgorithmsComparison
 {
@@ -207,12 +208,41 @@ namespace SortingAlgorithmsComparison
         public void QuickSort()
         {
             Stopwatch sw = new Stopwatch();
-            SortedArray = (double[])UnSortedArray.Clone();
+            double[] UnSortedArray = (double[])this.UnSortedArray.Clone();
             sw.Start();
 
+            QuickSort(ref UnSortedArray, 0, UnSortedArray.Length-1);
+            
             TimeSpent = sw.ElapsedMilliseconds;
             ElapsedTimeBySortingMethod.AddOrUpdate(MethodBase.GetCurrentMethod().Name, TimeSpent, (key, value) => TimeSpent);
-            throw new NotImplementedException();
+            this.SortedArray = UnSortedArray;
+        }
+
+        private void QuickSort(ref double[] unSortedArray, int start ,int end)
+        {
+            if (start >= end) { return; }
+            int pIndex = start;
+            Partition(ref pIndex, ref unSortedArray, start, end);
+            QuickSort(ref unSortedArray, start, pIndex-1);
+            QuickSort(ref unSortedArray, pIndex+1, end);
+        }
+
+        private void Partition(ref int pIndex, ref double[] unSortedArray, int start, int end)
+        {
+            double temp, pivot = unSortedArray[end];
+            for (int i = start; i< end ; i++ )
+            {
+                if(unSortedArray[i] <= pivot)
+                {
+                    temp = unSortedArray[i];
+                    unSortedArray[i] = unSortedArray[pIndex];
+                    unSortedArray[pIndex] = temp;
+                    pIndex++;
+                }
+            }
+            temp = unSortedArray[end];
+            unSortedArray[end] = unSortedArray[pIndex];
+            unSortedArray[pIndex] = temp;
         }
 
         public void RadixSort()
@@ -259,6 +289,7 @@ namespace SortingAlgorithmsComparison
             InsertionSort();
             InbuiltCollectionList();
             MergeSort();
+            QuickSort();
             PrintTimeComplexityComparison();
         }
 
@@ -267,7 +298,12 @@ namespace SortingAlgorithmsComparison
             Console.BackgroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine(String.Format("{0,-30} | {1,-20} | {2,-20}", "Sorting Algorithm", "Time Complexity (ms)", "Number of Elements"));
             Console.BackgroundColor = ConsoleColor.Blue;
-            foreach (KeyValuePair<String, double> ElapsedTime in ElapsedTimeBySortingMethod)
+
+            Dictionary<String, double> SortedElapsedTimeBySortingMethod = 
+                ElapsedTimeBySortingMethod.OrderBy(item => item.Value)
+                .ToDictionary(item => item.Key, item => item.Value);
+
+            foreach (KeyValuePair<String, double> ElapsedTime in SortedElapsedTimeBySortingMethod)
             {
                 Console.WriteLine(String.Format("{0,-30} | {1,-20} | {2,-20}", ElapsedTime.Key, ElapsedTime.Value, SortedArray.Length));
             }

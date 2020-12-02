@@ -9,7 +9,7 @@ namespace SortingAlgorithmsComparison.Test
     {
         SortAlgo sortAlgo;
         double[] Actual;
-        readonly int numberOfElementsToSort = (int)Math.Pow(10, 5);
+        readonly int numberOfElementsToSort = (int)Math.Pow(10, 4);
 
         [SetUp]
         public void Setup()
@@ -55,6 +55,14 @@ namespace SortingAlgorithmsComparison.Test
         public void TestMergeSort()
         {
             sortAlgo.MergeSort();
+            CollectionAssert.AreEqual(Actual, sortAlgo.SortedArray);
+        }
+
+        [Test]
+        [Category("pass")]
+        public void TestQuickSort()
+        {
+            sortAlgo.QuickSort();
             CollectionAssert.AreEqual(Actual, sortAlgo.SortedArray);
         }
     }

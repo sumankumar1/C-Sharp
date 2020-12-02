@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj": {}
+    "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj": {
+    "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj",
+        "projectUniqueName": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj",
         "projectName": "SortingAlgorithmsComparison.Test",
-        "projectPath": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj",
+        "projectPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj",
         "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortAlgo.Test\\obj\\",
+        "outputPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortAlgo.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj": {
-                "projectPath": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj"
+              "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj": {
+                "projectPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj": {
+    "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj",
+        "projectUniqueName": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj",
         "projectName": "SortingAlgorithmsComparison",
-        "projectPath": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj",
+        "projectPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj",
         "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\suman\\source\\repos\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\obj\\",
+        "outputPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
