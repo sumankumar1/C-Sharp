@@ -17,12 +17,19 @@ namespace SearchAlgorithmsComparison
         }
 
         public void BinarySearch()
-        {
-            throw new NotImplementedException();
+        {   
+            BinarySearch binarySearch = new BinarySearch(this.RawData.OrderBy(x => x).ToArray(), this.Value);
+            binarySearch.Find();
+            ElapsedTime = binarySearch.ElapsedTime;
+            Index = binarySearch.Index;
+            ElapsedTimeByAlgoName.AddOrUpdate(MethodBase.GetCurrentMethod().Name,
+                ElapsedTime, (key, value) => ElapsedTime);
+
         }
 
         public void CompareTimeComplexity()
         {
+            BinarySearch();
             LinearSearch();
             Print();
         }
