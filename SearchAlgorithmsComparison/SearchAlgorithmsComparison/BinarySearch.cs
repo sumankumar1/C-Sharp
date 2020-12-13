@@ -13,6 +13,7 @@ namespace SearchAlgorithmsComparison
 
         public void Find()
         {
+            Array.Sort(this.RawData);
             int n = 0;
             FindRecursive(ref n);
 

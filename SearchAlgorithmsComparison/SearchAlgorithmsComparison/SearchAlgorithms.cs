@@ -18,7 +18,7 @@ namespace SearchAlgorithmsComparison
 
         public void BinarySearch()
         {   
-            BinarySearch binarySearch = new BinarySearch(this.RawData.OrderBy(x => x).ToArray(), this.Value);
+            BinarySearch binarySearch = new BinarySearch(this.RawData, this.Value);
             binarySearch.Find();
             ElapsedTime = binarySearch.ElapsedTime;
             Index = binarySearch.Index;
