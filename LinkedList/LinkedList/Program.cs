@@ -36,6 +36,17 @@ namespace LinkedList
             Console.WriteLine("Length: {0}",doublyLinkedList.Length);
             doublyLinkedList.Find(7);
             Console.WriteLine("7 found:{0}", doublyLinkedList.Found);
+
+            BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>(100);
+            binarySearchTree.Grow(90);
+            binarySearchTree.Grow(110);
+            binarySearchTree.Grow(85);
+            binarySearchTree.Grow(120);
+            binarySearchTree.Grow(140);
+            binarySearchTree.Grow(10);
+            binarySearchTree.Grow(85);
+            Console.WriteLine("Tree Elements Count: {0}", binarySearchTree.Count);
+            binarySearchTree.Print();
         }
     }
 }

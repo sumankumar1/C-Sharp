@@ -19,8 +19,7 @@ namespace LinkedList
     {
         public int Length { get; set; }
         public bool Found { get; set; }
-        Node2<T> Prev = null;
-        Node2<T> Next = null;
+
         public Node2<T> First = null;
         public Node2<T> Last = null;
         Node2<T> Current = null;
