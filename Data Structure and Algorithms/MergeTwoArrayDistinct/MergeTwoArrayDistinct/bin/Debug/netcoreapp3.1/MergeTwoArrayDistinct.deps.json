@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MergeTwoArrayDistinct/1.0.0": {
+        "runtime": {
+          "MergeTwoArrayDistinct.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MergeTwoArrayDistinct/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
