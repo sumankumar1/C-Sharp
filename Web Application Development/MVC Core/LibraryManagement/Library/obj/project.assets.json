@@ -1533,6 +1533,19 @@
         "runtime": {
           "bin/placeholder/LibraryDatabase.dll": {}
         }
+      },
+      "LibraryServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibraryDatabase": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryServices.dll": {}
+        }
       }
     }
   },
@@ -5705,11 +5718,17 @@
       "type": "project",
       "path": "../LibraryData/LibraryDatabase.csproj",
       "msbuildProject": "../LibraryData/LibraryDatabase.csproj"
+    },
+    "LibraryServices/1.0.0": {
+      "type": "project",
+      "path": "../LibraryServices/LibraryServices.csproj",
+      "msbuildProject": "../LibraryServices/LibraryServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "LibraryDatabase >= 1.0.0",
+      "LibraryServices >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.11",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.11",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.11",
@@ -5752,6 +5771,9 @@
           "projectReferences": {
             "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Web Application Development\\MVC Core\\LibraryManagement\\LibraryData\\LibraryDatabase.csproj": {
               "projectPath": "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Web Application Development\\MVC Core\\LibraryManagement\\LibraryData\\LibraryDatabase.csproj"
+            },
+            "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Web Application Development\\MVC Core\\LibraryManagement\\LibraryServices\\LibraryServices.csproj": {
+              "projectPath": "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Web Application Development\\MVC Core\\LibraryManagement\\LibraryServices\\LibraryServices.csproj"
             }
           }
         }

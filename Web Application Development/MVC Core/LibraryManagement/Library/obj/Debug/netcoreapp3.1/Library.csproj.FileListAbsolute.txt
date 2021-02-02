@@ -92,3 +92,6 @@ C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\Library
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.dll
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.pdb
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.genruntimeconfig.cache
+C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\LibraryServices.dll
+C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\LibraryServices.pdb
+C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Index.cshtml.g.cs

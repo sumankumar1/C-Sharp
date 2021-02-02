@@ -1,5 +1,7 @@
 using Library.Data;
 using LibraryData;
+using LibraryDatabase;
+using LibraryServices;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,6 +31,7 @@ namespace Library
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
             services.AddDbContext<LibraryContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -37,7 +40,9 @@ namespace Library
                     Configuration.GetConnectionString("DefaultConnection"))); ;
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            //services.AddSingleton<IAuthorizationHandler, AllowAnonymous>();
+            services.AddSingleton<IAuthorizationHandler, AllowAnonymous>();
+            services.AddSingleton(Configuration);
+            services.AddScoped<ILibraryAsset, LibraryAssetService>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

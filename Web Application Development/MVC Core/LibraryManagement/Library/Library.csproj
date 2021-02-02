@@ -16,6 +16,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LibraryData\LibraryDatabase.csproj" />
+    <ProjectReference Include="..\LibraryServices\LibraryServices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
 
 </Project>
