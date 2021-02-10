@@ -61,7 +61,9 @@ C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\Library
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\LibraryDatabase.dll
+C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\LibraryServices.dll
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\LibraryDatabase.pdb
+C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\LibraryServices.pdb
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.csprojAssemblyReference.cache
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfoInputs.cache
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfo.cs
@@ -77,6 +79,8 @@ C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\Library
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.TagHelpers.output.cache
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.RazorCoreGenerate.cache
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Detail.cshtml.g.cs
+C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Index.cshtml.g.cs
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -92,6 +96,3 @@ C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\Library
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.dll
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.pdb
 C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Library.genruntimeconfig.cache
-C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\LibraryServices.dll
-C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\bin\Debug\netcoreapp3.1\LibraryServices.pdb
-C:\Users\kumar\source\repos\C-Sharp\Web Application Development\MVC Core\LibraryManagement\Library\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Index.cshtml.g.cs
