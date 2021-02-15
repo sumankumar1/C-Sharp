@@ -9,7 +9,7 @@ namespace SortingAlgorithmsComparison.Test
     {
         SortAlgo sortAlgo;
         double[] Actual;
-        readonly int numberOfElementsToSort = (int)Math.Pow(10, 4);
+        readonly int numberOfElementsToSort = (int)Math.Pow(10, 5);
 
         [SetUp]
         public void Setup()

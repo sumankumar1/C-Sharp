@@ -10,7 +10,7 @@ namespace SortingAlgorithmsComparison
             int Min = 0, Max = 20;
             Random randNum = new Random();
             double[] UnsortedArray = Enumerable
-                .Repeat(0, 50000)
+                .Repeat(0, 5000)// Set this number carefully, it may lead to stackoverflow in case of QuickSort
                 .Select(i => (double)randNum.Next(Min, Max))
                 .ToArray();
 

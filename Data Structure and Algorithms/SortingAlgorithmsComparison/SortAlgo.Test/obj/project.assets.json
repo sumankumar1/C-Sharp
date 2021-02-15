@@ -4644,20 +4644,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\suman\\.nuget\\packages\\": {}
+    "C:\\Users\\kumar\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj",
+      "projectUniqueName": "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Data Structure and Algorithms\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj",
       "projectName": "SortingAlgorithmsComparison.Test",
-      "projectPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj",
-      "packagesPath": "C:\\Users\\suman\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortAlgo.Test\\obj\\",
+      "projectPath": "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Data Structure and Algorithms\\SortingAlgorithmsComparison\\SortAlgo.Test\\SortingAlgorithmsComparison.Test.csproj",
+      "packagesPath": "C:\\Users\\kumar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Data Structure and Algorithms\\SortingAlgorithmsComparison\\SortAlgo.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\suman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -4668,9 +4673,10 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj": {
-              "projectPath": "C:\\Users\\suman\\OneDrive\\Documents\\GitHub\\C-Sharp\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj"
+            "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Data Structure and Algorithms\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj": {
+              "projectPath": "C:\\Users\\kumar\\source\\repos\\C-Sharp\\Data Structure and Algorithms\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison\\SortingAlgorithmsComparison.csproj"
             }
           }
         }
@@ -4683,6 +4689,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -4712,7 +4719,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
