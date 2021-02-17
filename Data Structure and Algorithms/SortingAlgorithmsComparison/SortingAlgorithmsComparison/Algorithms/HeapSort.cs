@@ -13,30 +13,63 @@ namespace SortingAlgorithmsComparison.Algorithms
 
         public double[] GetSortedArray()
         {
-            for(int lastElementIndex=sortedArray.Length-1; lastElementIndex >= 0 ; lastElementIndex--)
+            // Maxheapify every non-leaf node to build a Max-Heap
+            var lastNonLeafNodeIndexinArray = sortedArray.Length / 2 - 1;
+            BuildHeap(lastNonLeafNodeIndexinArray);
+
+            // Sort
+            for (int lastElementIndex = sortedArray.Length-1; lastElementIndex >= 0 ; lastElementIndex--)
             {
-                MaxHeapify(lastElementIndex);
+                // Move current root (maximum value) to end
                 Swap(0, lastElementIndex);
+
+                // Maxheapify root node in reduced heap
+                MaxHeapify(0, lastElementIndex);
+
+                // Reduce heap : exclude end in current heap to get reduced heap
             }
 
             return sortedArray;
         }
 
-        private void MaxHeapify(int lastElementIndex)
+       
+        private void BuildHeap (int lastNonLeafNodeIndexinArray)
         {
-            for (int childIndex = lastElementIndex; childIndex > 0; childIndex--)
+            for (int currentNonLeafNode = lastNonLeafNodeIndexinArray; currentNonLeafNode >= 0; currentNonLeafNode--)
             {
-                var possibleParentIndex1 = (childIndex - 1) / 2;
-                var possibleParentIndex2 = (childIndex - 2) / 2;
-                var parentIndex = possibleParentIndex1 == Math.Floor((decimal)possibleParentIndex1)
-                    ? possibleParentIndex1 : possibleParentIndex2;
+                MaxHeapify(currentNonLeafNode, sortedArray.Length-1);
+            }
 
+        }
 
-                if (sortedArray[childIndex] > sortedArray[parentIndex])
+        private void MaxHeapify(int currentNonLeafNode, int lastElementIndex)
+        {
+            int largestElemIndexMustBe = currentNonLeafNode;
+            var leftChildNodeIndex = 2 * currentNonLeafNode + 1;
+            var rightChildNodeIndex = 2 * currentNonLeafNode + 2;
+
+            if (leftChildNodeIndex < lastElementIndex)
+            {
+                if(sortedArray[largestElemIndexMustBe] < sortedArray[leftChildNodeIndex])
                 {
-                    Swap(childIndex, parentIndex);
+                    largestElemIndexMustBe = leftChildNodeIndex;
                 }
             }
+
+            if (rightChildNodeIndex < lastElementIndex)
+            {
+                if (sortedArray[largestElemIndexMustBe] < sortedArray[rightChildNodeIndex])
+                {
+                    largestElemIndexMustBe = rightChildNodeIndex;
+                }
+            }
+
+            if (largestElemIndexMustBe != currentNonLeafNode)
+            {
+                Swap(largestElemIndexMustBe, currentNonLeafNode);
+                MaxHeapify(largestElemIndexMustBe, lastElementIndex);
+            }
+
         }
 
         private void Swap(int index1, int index2)
