@@ -18,7 +18,7 @@ namespace SortingAlgorithmsComparison.Algorithms
             BuildHeap(lastNonLeafNodeIndexinArray);
 
             // Sort
-            for (int lastElementIndex = sortedArray.Length-1; lastElementIndex >= 0 ; lastElementIndex--)
+            for (int lastElementIndex = sortedArray.Length-1; lastElementIndex > 0 ; lastElementIndex--)
             {
                 // Move current root (maximum value) to end
                 Swap(0, lastElementIndex);
