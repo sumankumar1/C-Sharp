@@ -35,4 +35,3 @@ C:\Users\kumar\source\repos\C-Sharp\Data Structure and Algorithms\SortingAlgorit
 C:\Users\kumar\source\repos\C-Sharp\Data Structure and Algorithms\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.dll
 C:\Users\kumar\source\repos\C-Sharp\Data Structure and Algorithms\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.pdb
 C:\Users\kumar\source\repos\C-Sharp\Data Structure and Algorithms\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.genruntimeconfig.cache
-C:\Users\kumar\source\repos\C-Sharp\Data Structure and Algorithms\SortingAlgorithmsComparison\SortingAlgorithmsComparison\obj\Debug\netcoreapp3.1\SortingAlgorithmsComparison.csprojAssemblyReference.cache

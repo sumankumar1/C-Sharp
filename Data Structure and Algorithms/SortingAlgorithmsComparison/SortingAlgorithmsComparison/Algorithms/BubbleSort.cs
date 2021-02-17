@@ -1,10 +1,10 @@
-﻿
+﻿using System;
 
-namespace SortingAlgorithmsComparison
+namespace SortingAlgorithmsComparison.Algorithms
 {
     class BubbleSort
     {
-        private double[] SortedArray;
+        private readonly double[] SortedArray;
 
         public BubbleSort(double[] SortedArray)
         {

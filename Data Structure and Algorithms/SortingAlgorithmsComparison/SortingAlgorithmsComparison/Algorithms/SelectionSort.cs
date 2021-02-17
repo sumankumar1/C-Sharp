@@ -1,5 +1,6 @@
-﻿
-namespace SortingAlgorithmsComparison
+﻿using System;
+
+namespace SortingAlgorithmsComparison.Algorithms
 {
     public class SelectionSort
     {

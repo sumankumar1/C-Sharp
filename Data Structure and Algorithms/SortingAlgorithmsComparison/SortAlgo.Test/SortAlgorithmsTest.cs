@@ -1,13 +1,13 @@
 using System;
 using System.Linq;
 using NUnit.Framework;
-using SortingAlgorithmsComparison;
+
 
 namespace SortingAlgorithmsComparison.Test
 {
     public class Tests
     {
-        SortAlgo sortAlgo;
+        SortAlgorithms sortAlgo;
         double[] Actual;
         readonly int numberOfElementsToSort = (int)Math.Pow(10, 5);
 
@@ -21,7 +21,7 @@ namespace SortingAlgorithmsComparison.Test
                 .Select(i => (double)randNum.Next(MinValueinArray, MaxValueinArray))
                 .ToArray();
 
-            sortAlgo = new SortAlgo(UnsortedArray);
+            sortAlgo = new SortAlgorithms(UnsortedArray);
             sortAlgo.InbuiltCollectionList();
             Actual = sortAlgo.SortedArray;
         }
@@ -63,6 +63,14 @@ namespace SortingAlgorithmsComparison.Test
         public void TestQuickSort()
         {
             sortAlgo.QuickSort();
+            CollectionAssert.AreEqual(Actual, sortAlgo.SortedArray);
+        }
+
+        [Test]
+        [Category("pass")]
+        public void TestHeapSort()
+        {
+            sortAlgo.HeapSort();
             CollectionAssert.AreEqual(Actual, sortAlgo.SortedArray);
         }
     }

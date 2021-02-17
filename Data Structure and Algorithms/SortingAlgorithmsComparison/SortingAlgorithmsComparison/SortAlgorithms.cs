@@ -4,10 +4,11 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Reflection;
 using System.Linq;
+using SortingAlgorithmsComparison.Algorithms;
 
 namespace SortingAlgorithmsComparison
 {
-    public class SortAlgo : ISortAlgo
+    public class SortAlgorithms : ISortAlgorithms
     {
         public double[] UnSortedArray { get; set; }
         public double[] SortedArray { get; set; }
@@ -15,7 +16,7 @@ namespace SortingAlgorithmsComparison
         public ConcurrentDictionary<String, double> ElapsedTimeBySortingMethod { get; set; }
             = new ConcurrentDictionary<String, double> { };
 
-        public SortAlgo(double[] array)
+        public SortAlgorithms(double[] array)
         {
             this.UnSortedArray = array;
         }
@@ -38,21 +39,6 @@ namespace SortingAlgorithmsComparison
             ElapsedTimeBySortingMethod.AddOrUpdate(MethodBase.GetCurrentMethod().Name, TimeSpent, (key, value) => TimeSpent);
         }
 
-        public void BucketSort()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void CountSort()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void HeapSort()
-        {
-            throw new NotImplementedException();
-        }
-
         public void InsertionSort()
         {
             Stopwatch sw = new Stopwatch();
@@ -71,10 +57,8 @@ namespace SortingAlgorithmsComparison
             SortedArray = new MergeSort(UnSortedArray).GetSortedArray();
             TimeSpent = sw.ElapsedMilliseconds;
             ElapsedTimeBySortingMethod.AddOrUpdate(MethodBase.GetCurrentMethod().Name, TimeSpent, (key, value) => TimeSpent);
-            this.SortedArray = SortedArray;
         }
 
-       
         public void QuickSort()
         {
             Stopwatch sw = new Stopwatch();
@@ -82,7 +66,25 @@ namespace SortingAlgorithmsComparison
             SortedArray = new QuickSort(UnSortedArray).GetSortedArray();
             TimeSpent = sw.ElapsedMilliseconds;
             ElapsedTimeBySortingMethod.AddOrUpdate(MethodBase.GetCurrentMethod().Name, TimeSpent, (key, value) => TimeSpent);
-            this.SortedArray = UnSortedArray;
+        }
+
+        public void HeapSort()
+        {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            SortedArray = new HeapSort(UnSortedArray).GetSortedArray();
+            TimeSpent = sw.ElapsedMilliseconds;
+            ElapsedTimeBySortingMethod.AddOrUpdate(MethodBase.GetCurrentMethod().Name, TimeSpent, (key, value) => TimeSpent);
+        }
+
+        public void BucketSort()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CountSort()
+        {
+            throw new NotImplementedException();
         }
 
         public void RadixSort()

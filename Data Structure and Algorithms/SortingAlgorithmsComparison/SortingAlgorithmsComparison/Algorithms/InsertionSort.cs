@@ -1,6 +1,6 @@
 ﻿
 
-namespace SortingAlgorithmsComparison
+namespace SortingAlgorithmsComparison.Algorithms
 {
     class InsertionSort
     {

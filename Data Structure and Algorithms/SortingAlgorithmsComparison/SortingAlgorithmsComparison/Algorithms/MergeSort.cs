@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SortingAlgorithmsComparison
+namespace SortingAlgorithmsComparison.Algorithms
 {
     class MergeSort
     {

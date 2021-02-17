@@ -1,6 +1,6 @@
-﻿
+﻿using System;
 
-namespace SortingAlgorithmsComparison
+namespace SortingAlgorithmsComparison.Algorithms
 {
     class QuickSort
     {

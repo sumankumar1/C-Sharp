@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SortingAlgorithmsComparison
 {
-    interface ISortAlgo
+    interface ISortAlgorithms
     {
         double[] UnSortedArray { get; set; }
         double[] SortedArray { get; set; }
@@ -17,9 +17,9 @@ namespace SortingAlgorithmsComparison
         void MergeSort();
         void QuickSort();
         void HeapSort();
-        void RadixSort();
-        void CountSort();
         void BucketSort();
+        void CountSort();
+        void RadixSort();      
         void InbuiltCollectionList();
         void Print();
         void TimeComplexityComparison();
